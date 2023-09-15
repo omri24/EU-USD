@@ -15,7 +15,7 @@ This algorihm separates the datasets into groups of 72 samples (which is about 1
 The "raw estimations" image shows the estimated values (red) in compare to the real values (blue). 
 It is clear that there is a big bias (bias here is the difference between the averages of the predictions and the real values).
 
-The "estimations after bias fix" image shows the predictions and the real values, after adding the bias size to each predictions (this action can be depicted by "moving" the entire predictions data such that now the average of predictions is the average of the real data, but the shapes that the datapoints create is unchanged). 
+The "estimations after bias fix" image shows the predictions and the real values, after adding the bias size to each predictions (this action can be depicted by "moving" the entire predictions data such that now the average of predictions is the average of the real data, but the shapes that the datapoints create are unchanged). 
 It is possible to see that the shape of the graphs is similar.
 
 --- MORE INFORMATION ---
