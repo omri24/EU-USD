@@ -1,3 +1,4 @@
+# EU-USD
 --- GENERAL INFORMATION ABOUT THE CSV FILES---
 
 training set = EU price, in every minute, since 2001, unill may 2023.
