@@ -1,16 +1,17 @@
 # EU-USD
-## General information
+
+## The CSV files
 
 training set = EU price, in every minute, since 2001, unill may 2023.
 testing set = EU price, in every minute in june and july 2023.
-
 l1, l2,...,l6 = the weights of the NN- layers
 
---- GENERAL INFORMATION ABOUT THE ALGORITHM ---
-
+## The algorithm
 This algorihm separates the datasets into groups of 72 samples (which is about 1/20 of a day). Then it estimates the average of the next group, from all the data samples of the current group, using a NN.
 
---- INFORMATION ABOUT THE IMAGES OF THE RESULTS, PLEASE READ THIS PART ---
+## The results
+
+![image](https://github.com/omri24/EU-USD/assets/115406253/23f6bf3f-288f-4b61-a64c-f6314c6822b5)
 
 The "raw estimations" image shows the estimated values (red) in compare to the real values (blue). 
 It is clear that there is a big bias (bias here is the difference between the averages of the predictions and the real values).
