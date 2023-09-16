@@ -2,9 +2,9 @@
 
 ## The CSV files
 
-training set = EU price, in every minute, since 2001, unill may 2023.
-testing set = EU price, in every minute in june and july 2023.
-l1, l2,...,l6 = the weights of the NN- layers
+Training set = EU price, in every minute, since 2001, unill may 2023.
+Testing set = EU price, in every minute in june and july 2023.
+l1, l2,...,l6 = the weights of the NN- layers.
 
 ## The algorithm
 This algorihm separates the datasets into groups of 72 samples (which is about 1/20 of a day). Then it estimates the average of the next group, from all the data samples of the current group, using a NN.
