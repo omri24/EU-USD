@@ -24,12 +24,12 @@ After this fix, it is possible to see that the shapes created by the blue and th
 
 
 
---- MORE INFORMATION ---
+## Bias reduction 
 
-To reduce the bias of the estimation, use the bias reduction algorithm, although the improvement is not significant.
-inorder to use the bias reduction algorithm, one must run the data exportion option of this algorithm (last dialogue). 
+To decrease the bias of the estimations, one can use the bias reduction algorithm on my Github page, although the improvement is not significant. 
+There is a bulit in option in the py file of this algorithm, that allows to export all the necessary data in order to use the bias reduction algorithm.
 
-Methods used to reduce overfitting:
+## Methods used to reduce overfitting
 
-1. The saved weights are the "first run" of the code after setting it completly, without "choosing" convenient parameters that work well specifically for the testing set. They are saved only to reduce the running time.
+1. The saved weights (l1, l2,..., l6) were not selected "specifically" in order to fit better to the testing dataset.
 2. The data in the testing file doesn't exist in the training file at all.
