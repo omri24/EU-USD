@@ -1,5 +1,5 @@
 # EU-USD
---- GENERAL INFORMATION ABOUT THE CSV FILES---
+## General information
 
 training set = EU price, in every minute, since 2001, unill may 2023.
 testing set = EU price, in every minute in june and july 2023.
