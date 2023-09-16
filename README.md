@@ -11,13 +11,18 @@ This algorihm separates the datasets into groups of 72 samples (which is about 1
 
 ## The results
 
+Below are the predictions in compare to real values. There is a big bias for this algorithm, in the sense of big difference between the average of the predictions and the average of the real values that the algorithm tries to predict.
+
 ![image](https://github.com/omri24/EU-USD/assets/115406253/23f6bf3f-288f-4b61-a64c-f6314c6822b5)
 
-The "raw estimations" image shows the estimated values (red) in compare to the real values (blue). 
-It is clear that there is a big bias (bias here is the difference between the averages of the predictions and the real values).
+Below are the predictions of the algorithm, after shifting all the red dots up, such that now the average of the red dots is equal to the average of the blue dots.
+This action "manually" fixes the bias, but doesn't change the shapes that the red dots and the blue dots create. 
+In other words, the shapes of the "discrete curves" that the points create remain unchanged. 
+After this fix, it is possible to see that the shapes created by the blue and the red dots overlap each other, in parts of the plot.
 
-The "estimations after bias fix" image shows the predictions and the real values, after adding the bias size to each predictions (this action can be depicted by "moving" the entire predictions data such that now the average of predictions is the average of the real data, but the shapes that the datapoints create are unchanged). 
-It is possible to see that the graph shapes are similar.
+![estimations after bias fix](https://github.com/omri24/EU-USD/assets/115406253/2591ee57-a3ca-4a68-954e-b6b87f698193)
+
+
 
 --- MORE INFORMATION ---
 
