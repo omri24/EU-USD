@@ -22,8 +22,6 @@ After this fix, it is possible to see that the shapes created by the blue and th
 
 ![estimations after bias fix](https://github.com/omri24/EU-USD/assets/115406253/2591ee57-a3ca-4a68-954e-b6b87f698193)
 
-
-
 ## Bias reduction 
 
 To decrease the bias of the estimations, one can use the bias reduction algorithm on my Github page, although the improvement is not significant. 
@@ -33,3 +31,9 @@ There is a bulit in option in the py file of this algorithm, that allows to expo
 
 1. The saved weights (l1, l2,..., l6) were not selected "specifically" in order to fit better to the testing dataset.
 2. The data in the testing file doesn't exist in the training file at all.
+
+## Previous method
+
+Initially, I tried to estimate the EU value in a single time point instead of the average of a period. The results were unsatisfying in my opinion:
+   
+![point estimation](https://github.com/omri24/EU-USD/assets/115406253/7e188972-0154-480d-a0b8-545e5d65c27c)
